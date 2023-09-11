@@ -1,0 +1,64 @@
+.carta {
+  display: inline-block;
+  width: 90%; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  max-width: 400px;
+  text-align:justify;
+  padding-left: 50px;
+  margin-bottom: 15px;
+ 
+}
+
+.foto {
+  border-radius: 24px; /* Hace que la foto sea redonda */
+  width: 100%; /* Ajusta el tamaño de la foto según tus necesidades */
+  height: 269px;
+  object-fit: cover; /* Ajusta la imagen dentro del círculo sin distorsión */
+}
+
+
+p {
+  font-size: 15px;
+  font-family: Montserrat;
+  margin: 3px 0; /* Reduce el espacio entre los elementos de texto */
+}
+.texto{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+.super {
+    display: block;
+    padding: 8px; /* Ajusta este valor para reducir el espacio entre las cartas */
+    border: 2.5px solid #4F4F4F;
+    border-radius: 12px;
+    margin-right: 10px;
+  }
+  
+
+
+.type {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #828282;
+    margin-top: 8px;
+    margin-inline-end: auto; /* Añade margen superior para separar del contenido superior */
+  }
+
+  .star{
+    display: flex;
+    justify-content: center;
+    color: #EB5757;
+   
+   
+
+  }
+  .rating{
+    display: flex;
+    justify-content:right;
+    color:#4F4F4F;
+  }

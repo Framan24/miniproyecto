@@ -1,0 +1,28 @@
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px #f0dbdbcb;
+    height: 3ch;
+    border-radius: 16px;
+}
+.input1{
+    border:  1px solid  #F2F2F2;
+    padding: 2px;
+}
+.input2{
+    border:  1px solid  #F2F2F2;
+    padding: 2px;
+}
+.button{
+    border:  1px solid  #F2F2F2;
+    padding: 2px;
+    color: #EB5757;
+}
